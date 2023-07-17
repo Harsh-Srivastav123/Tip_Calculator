@@ -17,20 +17,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 
 @Composable
-//fun RoundIconButton(
-////    modifier:Modifier,
-////    imageVector:ImageVector,
-////    onClick:()->Unit,
-//////    tint: Color=   Color.Black.copy(alpha = 0.8f),
-//////    backgroundColor:Color=MaterialTheme.colors.background,
-////    elevation: Dp =4.dp
-////){
-////    Card(modifier = modifier.size()
-////        .padding(4.dp)
-////        .clickable { onClick.invoke() }) {
-////        Icon(imageVector = imageVector, contentDescription = null)
-////    }
-//}
+
 fun CustomButton(imageVector: ImageVector, onClick: () -> Unit) {
     Card(
         modifier = Modifier
